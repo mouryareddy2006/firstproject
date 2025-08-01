@@ -13,7 +13,7 @@ if name:
 number=st.slider("pick your age",0,100)
 st.write(f"your age is {number}")
 
-rat=st.input("enter your email:")
+rat=st.text_input("enter your email:")
 if rat:
    st.success(f"we have sent verification code to your email ,{rat}")
 
