@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("MOURYA's file")
+st.title("Mourya's file")
 st.header("welcome")
 st.write("python programme")
 
